@@ -549,6 +549,85 @@ p {
   box-shadow: var(--shadow-soft);
 }
 
+.research-focus-section {
+  padding-top: 0;
+}
+
+.research-focus-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.research-image-inline {
+  display: block;
+  width: 100%;
+  max-width: 22rem;
+  margin: 0.75rem auto 0;
+  border-radius: 16px;
+  box-shadow: var(--shadow-soft);
+}
+
+.research-hero-h1 {
+  margin-top: 1rem;
+  font-size: clamp(2.3rem, 5vw, 4.2rem);
+  line-height: 0.98;
+  max-width: 22ch;
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -0.04em;
+}
+
+.home-hero-grid {
+  grid-template-columns: minmax(0, 1.05fr) minmax(340px, 0.95fr);
+  align-items: start;
+}
+
+.home-hero-grid h1 {
+  max-width: 13.5ch;
+}
+
+.research-focus-card {
+  margin-top: 1.5rem;
+}
+
+.research-figure {
+  margin: 1rem 0 0;
+}
+
+.research-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  min-height: 34rem;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: var(--shadow-soft);
+}
+
+.research-figure figcaption {
+  margin-top: 0.75rem;
+  color: var(--muted);
+  line-height: 1.6;
+  text-align: center;
+}
+
+.omics-feature-card {
+  padding: 1rem;
+}
+
+.omics-feature-image {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: var(--shadow-soft);
+}
+
 .label-chip {
   display: inline-flex;
   align-items: center;
@@ -849,6 +928,7 @@ p {
   .approach-grid,
   .contact-grid,
   .profile-grid,
+  .research-focus-grid,
   .three-up,
   .two-up {
     grid-template-columns: 1fr;
