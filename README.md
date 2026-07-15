@@ -1,12 +1,12 @@
 # Abouelkhair Laboratory Website
 
-Small static site project generated from the original standalone mockup at `/Users/abouelkhair/Desktop/abouelkhair_lab_final.html`.
+Static website for Abouelkhair Laboratory.
 
 ## Files
 
 - `index.html` - home page
 - `research.html` - research overview
-- `publications.html` - publication layout with editable placeholders
+- `team.html` - laboratory members and trainee profiles
 - `contact.html` - contact and recruitment page
 - `assets/css/styles.css` - shared styles
 - `assets/js/site.js` - mobile navigation and footer year
@@ -23,8 +23,9 @@ python3 -m http.server 8000
 
 Then open `http://127.0.0.1:8000`.
 
-## First edits to make
+## Current pages
 
-1. Replace placeholder contact details in `contact.html`.
-2. Replace placeholder publication entries in `publications.html`.
-3. Refine research program text in `research.html` to match your exact lab directions.
+1. Home
+2. Research
+3. Team
+4. Contact
